@@ -1,12 +1,27 @@
 # Grace Menu
 A elegant and mobile support menu. The name is a tribute to Grace Hopper.
+![Grace menu in action](https://image.ibb.co/bSyFez/grace_menu.gif)
 
-![Grace menu in action](https://image.ibb.co/fUKh79/grace_menu.gif)
+## Implementing Grace Menu
 
-## Getting started
-To the Grace Menu work properly you must add two files in your project:
- - `grace-menu/assets/js/bundle.js`
- - `grace-menu/assets/css/bundle.css`
+ - Add the Grace Menu style: `@import 'node_modules/grace-menu/assets/css/bundle';`
+
+ - Add Grace Menu script: `require('grace-menu')`
+
+ - Create the parent-element in wich will be the Grace Menu (i.e `.grace-menu-parent` - this name is optional). Stylize this element the way you want.
+ ![Creating the parent element](https://image.ibb.co/gQwOXK/parent_element.png)
+ 
+
+ - Inside this parent-element, create a div with class `grace-menu-container`
+ ![Creating the Grace Menu element](https://image.ibb.co/kmtLCK/grace_menu_component.png)
+
+ - Now, you can create the `.grace-menu-body` component. Here will be the code to be inserted in Grace Menu. This element must be sibling of `.grace-menu-container` and everything inside this element can be stylized. Use your creativity!
+![Creating components that will be shown inside the menu](https://image.ibb.co/n6d3XK/create_body_menu_element.png)
+ - The last step is create the button that open and close the Grace Menu. In this button, put the class `grace-menu-toggler`. This button will toggle the menu visibility
+ ![enter image description here](https://image.ibb.co/e8dyzz/create_button.png)
+
+## Options:
+If you want specify a button just to open or just to close menu, use the classes `grace-menu-opener` and `grace-menu-closer`
 
 You're welcome to make changes to project (animations and styling), but is necessary include the files above so satisfatory operation.
 
