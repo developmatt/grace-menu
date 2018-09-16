@@ -1,6 +1,6 @@
 {
   "name": "grace-menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build:dev": "webpack",
     "build:production": "cross-env NODE_ENV=production webpack",
