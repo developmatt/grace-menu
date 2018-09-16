@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.grace-menu-menu-toggler').click(function(){
+    $('.grace-menu-toggler').click(function(){
         $('.grace-menu-background').toggleClass("opened");
         setTimeout(function(){
             $('.grace-menu').toggleClass("opened");
