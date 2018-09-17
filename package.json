@@ -1,6 +1,6 @@
 {
   "name": "grace-menu",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "dev": "webpack",
     "prod": "cross-env NODE_ENV=production webpack",
@@ -31,18 +31,18 @@
     "design"
   ],
   "author": {
-      "name": "Matheus Godoi",
-      "email": "hi.developmatt@gmail.com",
-      "url": "https://developmatt.com"
+    "name": "Matheus Godoi",
+    "email": "hi.developmatt@gmail.com",
+    "url": "https://developmatt.com"
   },
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/developmatt/grace-menu-plugin.git"
+    "type": "git",
+    "url": "git+https://github.com/developmatt/grace-menu-plugin.git"
   },
   "homepage": "https://github.com/developmatt/grace-menu-plugin#readme",
-    "bugs": {
-        "url": "https://github.com/developmatt/grace-menu-plugin/issues"
-    },
-    "license": "MIT",
-    "description": "A elegant and mobile support menu. The name is a tribute to Grace Hopper."
+  "bugs": {
+    "url": "https://github.com/developmatt/grace-menu-plugin/issues"
+  },
+  "license": "MIT",
+  "description": "A elegant and mobile support menu. The name is a tribute to Grace Hopper."
 }
