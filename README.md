@@ -4,7 +4,7 @@ A elegant and mobile support menu. The name is a tribute to Grace Hopper.
 
 ## Implementing Grace Menu
 
- - Add the Grace Menu style: `@import 'node_modules/grace-menu/assets/css/bundle';`
+ - Add the Grace Menu style: `@import 'node_modules/grace-menu/dist/css/bundle';`
 
  - Add Grace Menu script: `require('grace-menu')`
 
