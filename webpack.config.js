@@ -4,7 +4,7 @@ module.exports = {
 	mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
 	entry: ['./src/js/main.js', './src/scss/index.scss'],
 	output: {
-		path: path.resolve(__dirname, 'assets'),
+		path: path.resolve(__dirname, 'dist'),
 		filename: 'js/bundle.js',
 	},
 	module: {

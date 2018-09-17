@@ -1,9 +1,9 @@
 {
   "name": "grace-menu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
-    "build:dev": "webpack",
-    "build:production": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack",
+    "prod": "cross-env NODE_ENV=production webpack",
     "watch": "webpack --watch"
   },
   "devDependencies": {
@@ -23,11 +23,26 @@
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   },
-  "main": "assets/js/bundle.js",
-  "style": "assets/css/bundle.css",
+  "main": "dist/js/bundle.js",
+  "style": "dist/css/bundle.css",
   "keywords": [
     "menu",
     "animation",
     "design"
-  ]
+  ],
+  "author": {
+      "name": "Matheus Godoi",
+      "email": "hi.developmatt@gmail.com",
+      "url": "https://developmatt.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/developmatt/grace-menu-plugin.git"
+  },
+  "homepage": "https://github.com/developmatt/grace-menu-plugin#readme",
+    "bugs": {
+        "url": "https://github.com/developmatt/grace-menu-plugin/issues"
+    },
+    "license": "MIT",
+    "description": "A elegant and mobile support menu. The name is a tribute to Grace Hopper."
 }
